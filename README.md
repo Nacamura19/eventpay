@@ -1,6 +1,7 @@
 <p align="center">
   <img src="logo.png" alt="EventPay logo" width="220"/>
 </p>
+
 # EventPay  
 ### Real-time, QR-based payments for festivals and live events — powered by Kaspa
 
