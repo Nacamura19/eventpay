@@ -83,3 +83,30 @@ An MVP implementation is planned as the next phase.
 ## License
 
 MIT (to be finalized)
+
+## MVP Roadmap
+
+**Phase 1 – Event Wallet Core**
+- Web-based Event Wallet (no user crypto wallet required)
+- User credit balances denominated in fiat value
+- QR-based payments for vendors and artist tipping
+- Central event treasury holding Kaspa liquidity
+
+**Phase 2 – Real-Time Settlement**
+- Instant Kaspa transactions for vendor settlement
+- Event-level dashboards for organizers
+- Treasury buffering to minimize price exposure
+
+**Phase 3 – Multi-Event Credits**
+- Reusable credits across multiple events
+- Optional user accounts for frequent attendees
+- Cross-event balance portability
+
+  ## Transaction Flow (Simplified)
+
+1. User tops up credits on the EventPay website using fiat (EUR / CHF / USD).
+2. Credits are assigned to the user account in fiat value.
+3. EventPay treasury converts fiat to Kaspa at predefined intervals.
+4. At the event, the user scans a QR code to pay vendors or tip artists.
+5. Vendor balances are updated instantly.
+6. Vendors can settle to Kaspa or fiat after the event.
